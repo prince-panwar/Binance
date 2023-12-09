@@ -1,13 +1,26 @@
-# Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+# TASK 1
+## Contracts
 
-Try running some of the following tasks:
+### BNBTransfer
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Located in the `contracts` folder, the `BNBTransfer` contract handles the transfer of BNB.
+
+### Usage
+Instructions on how to deploy and use the `BNBTransfer` contract.
+```bash
+# Example deployment command
+npx hardhat run scripts/deploy.js --network binance
+
+# TASK 2
+
+### Deposit to aave test pool deployed on sepolia testnet
+
+the script Located in `scripts` folder named `deposittoaave` can be used to deposit sepolia to aave's testnet pool deployed on sepolia using the supply function
+
+### Usage
+
+```bash
+
+npx hardhat run scripts/deposittoaave.js --network sepolia
+
