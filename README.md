@@ -8,10 +8,11 @@ Located in the `contracts` folder, the `BNBTransfer` contract handles the transf
 
 ### Usage
 Instructions on how to deploy and use the `BNBTransfer` contract.
+Run this command in the terminal
 ```bash
-# Example deployment command
-npx hardhat run scripts/deploy.js --network binance
 
+npx hardhat run scripts/deploy.js --network binance
+```
 # TASK 2
 
 ### Deposit to aave test pool deployed on sepolia testnet
@@ -19,7 +20,7 @@ npx hardhat run scripts/deploy.js --network binance
 the script Located in `scripts` folder named `deposittoaave` can be used to deposit sepolia to aave's testnet pool deployed on sepolia using the supply function
 
 ### Usage
-
+Run this command in the terminal
 ```bash
 
 npx hardhat run scripts/deposittoaave.js --network sepolia
